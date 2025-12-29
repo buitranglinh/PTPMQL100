@@ -21,7 +21,7 @@ public class HomeController : Controller
     public IActionResult Index(string FullName, string Address)
     {
         string strOutput = "Xin chào" + FullName + " đến từ " + Address;
-        ViewBag.Mesage = strOutput;
+        ViewBag.Message = strOutput;
         return View();
     }
 }
